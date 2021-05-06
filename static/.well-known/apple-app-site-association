@@ -1,11 +1,11 @@
 {
   "appclips": {
-    "apps": ["92XVGR6M56.com.diegolavalle.swiftui.app.workingexampleclip"]
+    "apps": ["9XW8U7UU4W.com.diegolavalle.WorkingExamples.appclip"]
   },
   "applinks": {
     "details": [
        {
-         "appIDs": [ "92XVGR6M56.com.diegolavalle.swiftui.app" ],
+         "appIDs": [ "9XW8U7UU4W.com.diegolavalle.WorkingExamples" ],
          "components": [
            {
               "/": "/posts/*",
