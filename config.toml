@@ -14,7 +14,7 @@ taxonomyTerm = ["HTML", "JSON"]
 
 [params]
   subtitle = "A blog about SwiftUI and related Apple ecosystem technologies"
-  appLink = "https://apps.apple.com/ca/app/u-i-working-examples-swiftui/id1500566574"
+  appLink = "https://apps.apple.com/app/working-examples-for-swiftui/id1566337950"
 
 [markup]
 [markup.highlight]

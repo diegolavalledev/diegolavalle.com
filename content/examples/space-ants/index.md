@@ -3,6 +3,10 @@ title = "Space Ants"
 subtitle = "Catch the angry ants from space!"
 date = 2021-05-28T12:00:00Z
 
+aliases = [
+    "/example"
+]
+
 [[resources]]
   name = "icon"
   src = "icon.png"
