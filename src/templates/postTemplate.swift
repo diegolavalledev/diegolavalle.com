@@ -1,0 +1,30 @@
+let postTemplate = Site.templateB { site, post in baseLayout(site: site, post: post, main: """
+<article class="post">
+    <header>
+        <p class="date">\(post.dateFormatted) • <a href="/categories/\(post.categories.0)">\(post.categories.0.name)</a>, <a href="/categories/\(post.categories.1)">\(post.categories.1.name)</a></p>
+        <h1 class="title">
+            \(post.title)
+            \(
+                post.subtitle == .none
+                ? ""
+                : """
+                <br />
+                <em>\(post.subtitle!)</em>
+                """
+            )
+        </h1>
+        <p class="author">
+            <a href="/about">\(post.author)</a>
+        </p>
+    </header>
+    <main>
+    \(post.content)
+    </main>
+    <footer>
+        <p class="postTagsSection">
+            <span class="postTagsTitle">Tags:</span>
+            <span class="postTags">\(post.tags.joined(separator: ", "))</span>
+        </p>
+    </footer>
+</article>
+""" ) }

@@ -1,0 +1,15 @@
+/* Colors */
+:root {
+    --col-bg: #1F1F24; /* "Background", dark gray */
+    --col-bg-secondary: #515B70; /* "Selection", light gray */
+    --col-text: rgba(255, 255, 255, .85); /* "Plain Text", translucent white */
+    --col-link: #FC6A5D; /* "Strings", orange pink */
+    --col-accent-2: #FC5FA3; /* "Keywords", pink */
+    --col-accent-3: #D0BF69; /* "Characters", yellow */
+    --col-accent: #D0A8FF; /* "Other Class Names", light purple */
+    --col-accent-second: #A167E6; /* "Other Functions and Methods Names", light purple */
+    --col-accent-alt: #9EF1DD; /* "Project Class Names", light turquoise */
+    --col-accent-alt-second: #67B7A4; /* "Project Functions and Methods Names", light turquoise */
+    --col-code: #aaa;
+    --col-code-bg: #555;
+}
