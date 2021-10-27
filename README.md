@@ -7,5 +7,5 @@ Sources for diegolavalle.com.
 To serve local version during development use Python.
 
 ```sh
-python -m http.server --directory www
+python3 -m http.server --directory www
 ```
