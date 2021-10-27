@@ -5,12 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 ### Pending
-- Maximum width of 768 pixels for home page, post and other content.
 - Visited links are showing with the wrong text color.
 - Site header and navigation layout not responding great to phone displays.
 
 ### Added
+- Maximum width of 768 pixels for home page, post and other content.
+
+### Changed
 - Read Me now shows the right command for running local web server using version of Python shipped with macOS 13.
+
+## [1.0.1] - 2021-10-28
 
 ## [1.0.0] - 2021-10-26
 ### Added

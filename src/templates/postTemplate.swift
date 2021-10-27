@@ -1,5 +1,5 @@
 let postTemplate = Site.templateB { site, post in baseLayout(site: site, post: post, main: """
-<article class="post">
+<main class="post"><article>
     <header>
         <p class="date">\(post.dateFormatted) • <a href="/categories/\(post.categories.0)">\(post.categories.0.name)</a>, <a href="/categories/\(post.categories.1)">\(post.categories.1.name)</a></p>
         <h1 class="title">
@@ -26,5 +26,5 @@ let postTemplate = Site.templateB { site, post in baseLayout(site: site, post: p
             <span class="postTags">\(post.tags.joined(separator: ", "))</span>
         </p>
     </footer>
-</article>
+</article></main>
 """ ) }

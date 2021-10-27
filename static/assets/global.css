@@ -27,6 +27,11 @@ body {
     margin: var(--standard-v-margin) calc(2 * var(--standard-h-margin)) calc(3 * var(--standard-v-margin)) calc(2 * var(--standard-h-margin));
 }
 
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 body > header {
     display: flex;
     justify-content: space-between;
