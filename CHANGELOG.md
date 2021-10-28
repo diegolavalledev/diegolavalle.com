@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 ### Pending
+- Safari detects one tracker coming from jsdelivr.net - where Theme Switch is hosted.
+- Since a maximum width was added to the main section the site started to look too small on mobile. We probably need to specify a view port zoom value.
 - Site header and navigation layout not responding in an ideal way to small phone displays.
 
 ## [1.0.1] - 2021-10-28
