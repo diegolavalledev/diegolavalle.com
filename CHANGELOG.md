@@ -5,16 +5,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 ### Pending
-- Visited links are showing with the wrong text color.
-- Site header and navigation layout not responding great to phone displays.
+- Site header and navigation layout not responding in an ideal way to small phone displays.
 
+## [1.0.1] - 2021-10-28
 ### Added
+- Left margin for site title.
+- Bottom margin for site header.
+- Hard-coded post discussion section.
 - Maximum width of 768 pixels for home page, post and other content.
 
 ### Changed
+- Increased bottom margin site-wide.
+- Post tags section style.
+- All links except navigation now underline on hover.
 - Read Me now shows the right command for running local web server using version of Python shipped with macOS 13.
 
-## [1.0.1] - 2021-10-28
+### Fixed
+- Visited links no longer showing with the wrong text color.
 
 ## [1.0.0] - 2021-10-26
 ### Added
@@ -34,4 +41,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Post template.
 - Regular page template.
 
-[Unreleased]: https://github.com/diegolavalle/website/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/diegolavalle/website/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/diegolavalle/website/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/diegolavalle/website/releases/tag/1.0.0

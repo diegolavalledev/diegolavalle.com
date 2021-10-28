@@ -25,6 +25,8 @@ let postTemplate = Site.templateB { site, post in baseLayout(site: site, post: p
             <span class="postTagsTitle">Tags:</span>
             <span class="postTags">\(post.tags.joined(separator: ", "))</span>
         </p>
+        <p class="postDiscussionSection">Leave your comments on this post's <a href="https://github.com/diegolavalle/website/discussions/1"> GitHub Discussion</a>.</span>
+        </p>
     </footer>
 </article></main>
 """ ) }

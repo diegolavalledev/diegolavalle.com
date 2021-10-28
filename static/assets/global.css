@@ -24,7 +24,7 @@
 /* Layout */
 
 body {
-    margin: var(--standard-v-margin) calc(2 * var(--standard-h-margin)) calc(3 * var(--standard-v-margin)) calc(2 * var(--standard-h-margin));
+    margin: var(--standard-v-margin) calc(2 * var(--standard-h-margin)) calc(5 * var(--standard-v-margin)) calc(2 * var(--standard-h-margin));
 }
 
 main {
@@ -35,6 +35,7 @@ main {
 body > header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: calc(2 * var(--standard-v-margin));
 }
 
 .home > section > h1 {
@@ -76,6 +77,10 @@ pre > code {
 
 figcaption + pre {
     margin-top: 0.25rem;
+}
+
+.site-title {
+    margin-right: calc(1.5 * var(--standard-h-margin));
 }
 
 .intro {
@@ -164,11 +169,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .home > section > h1 {
     text-align: center;
 }
 
-nav > ul li > a {
+nav > ul li > a, nav > ul li > a:hover {
     text-decoration: none;
 }
 
@@ -232,6 +241,14 @@ figcaption {
     line-height: 1.25;
 }
 
+.postTagsSection {
+    font-weight: bold;
+}
+
+.postDiscussionSection {
+    font-style: italic;
+}
+
 /* Colors */
 
 body {
@@ -239,12 +256,8 @@ body {
     background: var(--col-bg);
 }
 
-a {
+a, a:visited {
     color: var(--col-link);
-}
-
-a:visited {
-    color: inherit;
 }
 
 body > footer {
@@ -270,7 +283,7 @@ pre > code {
     background: var(--col-bg-secondary);
 }
 
-.summary a {
+.summary a, .summary a:visited {
     color: inherit;
 }
 
@@ -290,7 +303,7 @@ pre > code {
     color: var(--col-accent-alt);
 }
 
-.post .date a {
+.post .date a, .post .date a:visited {
     color: inherit;
 }
 
