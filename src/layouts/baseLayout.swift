@@ -5,6 +5,7 @@ func baseLayout (site: Site, page: Page? = nil, post: Post? = nil, main: String)
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/assets/global.css" />
         <link id="themeCSSLink" rel="stylesheet" href="/assets/dark.css" media="(prefers-color-scheme: dark)" />
         <link rel="stylesheet" href="/assets/highlight.css" />

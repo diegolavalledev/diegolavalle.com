@@ -5,9 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 ### Pending
+- Fetch discussion responses from GitHub GraphQL API and add them to the post template.
 - Safari detects one tracker coming from jsdelivr.net - where Theme Switch is hosted.
-- Since a maximum width was added to the main section the site started to look too small on mobile. We probably need to specify a view port zoom value.
 - Site header and navigation layout not responding in an ideal way to small phone displays.
+
+## [1.0.2] - 2021-10-29
+### Added
+- View port width and scale value now specified for all pages.
+
+### Fixed
+- Site no longer looks too small on mobile.
 
 ## [1.0.1] - 2021-10-28
 ### Added
@@ -44,5 +51,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Regular page template.
 
 [Unreleased]: https://github.com/diegolavalle/website/compare/1.0.1...HEAD
+[1.0.2]: https://github.com/diegolavalle/website/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/diegolavalle/website/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/diegolavalle/website/releases/tag/1.0.0
