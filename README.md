@@ -10,6 +10,10 @@ To serve local version during development use Python.
 python3 -m http.server --directory www
 ```
 
+## Generating the site
+
+Make sure you export an environment variable named `GITHUB_API_TOKEN` containing your GitHub token. This can also be done via scheme settings on Xcode or on Netlify's configuration.
+
 ## Set up publishing
 
 In Netlify add the `data` branch to _Site settings, Build & deploy, Branches, Branch deploys_.

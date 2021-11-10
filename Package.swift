@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "DLDotCom",
-    platforms: [.macOS(.v11)],
+    platforms: [.macOS(.v12)],
     dependencies: [
         .package(url: "https://github.com/swiftysites/swiftysites", .branch("release"))],
     targets: [
