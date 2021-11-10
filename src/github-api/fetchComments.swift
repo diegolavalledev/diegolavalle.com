@@ -1,5 +1,9 @@
 import Foundation
 
+#if canImport(FoundationNetworking)
+    import FoundationNetworking
+#endif
+
 func fetchComments() async -> [Discussion] {
     guard let token = ProcessInfo.processInfo.environment["GITHUB_API_TOKEN"] else {
         fatalError()
