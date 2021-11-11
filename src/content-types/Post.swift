@@ -9,6 +9,7 @@ struct Post: Content {
     let date: Date
     let categories: (Category, Category)
     let tags: [String]
+    let discussionID: Int?
 
     @Markdown private(set) var content: String
     @Markdown private(set) var summary: String
@@ -21,6 +22,7 @@ struct Post: Content {
         _ date: String,
         _ categories: (Category, Category),
         _ tags: [String],
+        discussion: Int? = .none,
         content: () -> String,
         summary: () -> String
     ) {
@@ -36,6 +38,7 @@ struct Post: Content {
         self.date = date
         self.categories = categories
         self.tags = tags
+        self.discussionID = discussion
         self.content = content()
         self.summary = summary()
     }

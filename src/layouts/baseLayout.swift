@@ -9,6 +9,8 @@ func baseLayout (site: Site, page: Page? = nil, post: Post? = nil, main: String)
         <link rel="stylesheet" href="/assets/global.css" />
         <link id="themeCSSLink" rel="stylesheet" href="/assets/dark.css" media="(prefers-color-scheme: dark)" />
         <link rel="stylesheet" href="/assets/highlight.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <!--script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script-->
         <script src="https://cdn.jsdelivr.net/gh/swiftysites/theme-switch@release/src/theme-switch.min.js"></script>
         <script src="/assets/highlight.js"></script>
         <script>hljs.highlightAll();</script>
@@ -25,6 +27,7 @@ func baseLayout (site: Site, page: Page? = nil, post: Post? = nil, main: String)
         </header>
         \(main)
         \(footerPartial(site, page))
+        <script src="/assets/comments-app.js"></script>
     </body>
 </html>
 """ }

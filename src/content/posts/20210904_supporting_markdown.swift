@@ -1,4 +1,4 @@
-let post_20210904_supporting_markdown = Post("/posts/2021-09-04-supporting-markdown", "Supporting Markdown on SwiftySites", .none, "DL", "2021-05-10T12:00:00Z", (.swiftServerSide, .contentManagement), ["SwiftySites", "Markdown", "Swift", "Linux"]) { #"""
+let post_20210904_supporting_markdown = Post("/posts/2021-09-04-supporting-markdown", "Supporting Markdown on SwiftySites", .none, "DL", "2021-05-10T12:00:00Z", (.swiftServerSide, .contentManagement), ["SwiftySites", "Markdown", "Swift", "Linux"], discussion: 1) { #"""
 One of the first challenges one encounters when building a static site generator is Markdown support.
 
 I knew Apple had just [announced](https://developer.apple.com/videos/play/wwdc2021/10109/?time=486) during WWDC21 support for Markdown in attributed strings and other APIs but offered no interface for directly converting Markdown to HTML.
