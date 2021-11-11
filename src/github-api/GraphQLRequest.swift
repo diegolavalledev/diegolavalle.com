@@ -21,6 +21,14 @@ struct GraphQLRequest: Encodable {
                           login
                         }
                         bodyHTML
+                        replies(first: 1) {
+                          totalCount
+                          edges {
+                            node {
+                              url
+                            }
+                          }
+                        }
                       }
                     }
                   }

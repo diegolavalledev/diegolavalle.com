@@ -6,6 +6,7 @@ struct Discussion: Content, Encodable {
         let author: String
         let authorURL: String
         let bodyHTML: String
+        let totalReplies: Int
     }
     let path: String
     let url: String
@@ -20,7 +21,8 @@ extension Discussion.Comment {
             url: node.url,
             author: node.author.login,
             authorURL: node.author.url,
-            bodyHTML: node.bodyHTML
+            bodyHTML: node.bodyHTML,
+            totalReplies: node.replies.totalCount
         )
     }
 }

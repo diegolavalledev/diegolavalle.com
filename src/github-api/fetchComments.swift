@@ -1,9 +1,5 @@
 import Foundation
 
-#if canImport(_Concurrency)
-    import _Concurrency
-#endif
-
 #if canImport(FoundationNetworking)
     import FoundationNetworking
 #endif
