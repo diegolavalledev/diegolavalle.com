@@ -35,7 +35,7 @@ let postTemplate = Site.templateB { site, post in baseLayout(site: site, post: p
                 <p><a href="https://github.com/diegolavalle/website/discussions/\(post.discussionID!)">Add a comment</a>
                 </p>
                 <div id="comments-app">
-                    <div v-if="discussion == null">
+                    <div v-if="loading">
                         <em>Loading comments…</em>
                     </div>
                     <div v-if="discussion != null">

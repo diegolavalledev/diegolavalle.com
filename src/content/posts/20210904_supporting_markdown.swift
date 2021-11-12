@@ -7,7 +7,7 @@ A bit of digging in the developer forums led me to [this answer](https://develop
 
 `cmark-gfm` itself is a fork of the [cmark](https://github.com/commonmark/cmark) C library. GFM stands for [GitHub Flavor Markdown](https://github.github.com/gfm/) and consists of a set of extensions to the [CommonMark](https://commonmark.org) specification.
 
-Having some experience in integrating C code into Swift applications I started adapting `cmark-gfm` for my purposes. The endeavour involved cross-compiling for the relevant architectures and linking to a custom Objective-C framework.
+Having some experience in integrating C code into Swift applications I started adapting `cmark-gfm` for my purposes. The endeavor involved cross-compiling for the relevant architectures and linking to a custom Objective-C framework.
 
 Since `cmark-gfm` lacked a simplified interface for straightforwardly converting GFM to HTML – which the original `cmark` had – I decided to write my own Swift protocol around it. I decided to expose all the options and extensions available from the underlying libraries.
 
