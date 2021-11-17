@@ -137,7 +137,7 @@ figcaption + pre {
 }
 
 .post .author {
-    margin: 0;
+    margin: 0 0 var(--standard-v-margin) 0;
 }
 
 .post main h1 {
