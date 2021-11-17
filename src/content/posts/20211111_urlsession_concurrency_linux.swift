@@ -1,5 +1,4 @@
-import Foundation
-let post_20211111_urlsession_concurrency_linux = Post("/posts/2021-11-11-urlsession_concurrency_linux", "URLSession Concurrency on Linux", .none, "DL", "2021-11-11T12:00:00Z", (.swiftServerSide, .swiftConcurrency), ["Swift", "URLSession", "DataTask", "Async/Await", "Linux"], discussion: 2) { #"""
+let post_20211111_urlsession_concurrency_linux = Post("/posts/2021-11-11-urlsession-concurrency-linux", "URLSession Concurrency on Linux", .none, "DL", "2021-11-11T12:00:00Z", (.swiftServerSide, .swiftConcurrency), ["Swift", "URLSession", "DataTask", "Async/Await", "Linux"], discussion: 2) { """
 Being in the situation of having to write Swift code that runs on both Mac and Linux makes you realize some of the subtle differences between these two.
 
 For instance you can use `URLSession` on the open source toolchain but you need to import `FoundationNetworking` instead of just `Foundation` for it to work.
@@ -80,6 +79,6 @@ func fetchComments() async -> [Discussion] {
 ```
 
 The full implementation of the `getComments` function is part of my Website Data project and can be found [here](https://github.com/diegolavalle/website-data/blob/2fd56238638f9ee1eaab51f86061319f3b032982/src/github-api/fetchComments.swift).
-"""# } summary: { """
+""" } summary: { """
 The open source Swift toolchain already supports the language's new concurrency features but the Foundation framework has some catching up to do.
 """ }
