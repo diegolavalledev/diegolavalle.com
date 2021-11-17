@@ -5,9 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 ### Pending
-- Fetch discussion responses from GitHub GraphQL API and add them to the post template.
 - Safari detects one tracker coming from jsdelivr.net - where Theme Switch is hosted.
 - Site header and navigation layout not responding in an ideal way to small phone displays.
+
+### Added
+- Fetch discussion responses from GitHub GraphQL API and add them to the post template.
+
+### Fixed
+- Author margin on post page.
 
 ## [1.0.2] - 2021-10-29
 ### Added
