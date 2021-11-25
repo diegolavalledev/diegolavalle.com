@@ -153,7 +153,7 @@ figcaption + pre {
 .post img {
     display: block;
     max-width: 95%;
-    margin: calc(1 * var(--standard-v-margin)) auto;
+    margin: calc(2 * var(--standard-v-margin)) auto;
 }
 
 /* Fonts */
