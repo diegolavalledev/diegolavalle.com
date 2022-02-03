@@ -107,6 +107,6 @@ struct MyForm: View {
 
 Are there better solutions to work around what seems to be a [bug](https://developer.apple.com/forums/thread/681962) on Apple's side? Leave a comment in the discussion area and tell me what you think.
 
-![Demo](/assets/posts/2021-11-25-setting-text-field-focus/demo.gif)
+![Demo](demo.gif)
 
 """ } summary: { "Leverage one of SwiftUI's latest features to automatically set the focus of a text field as soon as it appears." }

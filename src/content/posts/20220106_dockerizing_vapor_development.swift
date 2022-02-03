@@ -1,4 +1,4 @@
-let post_20220106_dockerizing_vapor_development = Post("/posts/2022-01-06-dockerizing-vapor-development", "Dockerizing Vapor Development", .none, "DL", "2022-06-06T12:00:00Z", (.swiftServerSide, .devOps), ["Docker", "Vapor", "Swift", "Linux"], discussion: 5) { """
+let post_20220106_dockerizing_vapor_development = Post("/posts/2022-01-06-dockerizing-vapor-development", "Dockerizing Vapor Development", .none, "DL", "2022-01-06T12:00:00Z", (.swiftServerSide, .devOps), ["Docker", "Vapor", "Swift", "Linux"], discussion: 5) { """
 
 Personally I find the use of Docker in development environments quite advantageous. From the get-go it lets me keep my workstation clean of any additional software that I might not even need after a certain while. In addition to that, crafting my own `Dockerfile`s helps me understand a particular tool's requirements and isolate its dependencies. For this reason I knew Docker was the way to go for experimenting with [Vapor](https://vapor.codes) for the very first time.
 
