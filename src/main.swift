@@ -3,6 +3,7 @@ let site = Site(config,
         homePage, projectsPage, aboutPage, privacyPage, supportPage, categoriesPage
     ],
     contentB: [
+        post_20221129_calling_mutating_async_functions,
         post_20220202_multiple_backend_environments,
         post_20220106_dockerizing_vapor_development,
         post_20211125_setting_text_field_focus,
