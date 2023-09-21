@@ -1,16 +1,12 @@
+import SwiftySites
+
 @main
 struct SiteGenerator {
     static func main() async {
         let discussions = await fetchComments()
         let site = Site(config,
-            contentA: [
-            ],
-            templates: [
-                discussionTemplate
-            ],
-            generators: [
-                makeDiscussionsGenerator(discussions: discussions)
-            ])
+            content: discussions,
+            template: [discussionTemplate])
         site.render(skipSitemap: true)
     }
 }

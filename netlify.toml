@@ -3,7 +3,7 @@
     command = "swift run -c release swiftysites --clean"
 
 [build.environment]
-    SWIFT_VERSION = "5.5"
+    SWIFT_VERSION = "5.9"
 
 [[headers]]
     for = "/*"

@@ -24,6 +24,6 @@
 [remote "publish"]
     url = github.com:diegolavalledev/diegolavalle.com
     fetch = +refs/heads/*:refs/remotes/publish/*
-[remote "origin"]
-    url = github.com:diegolavalle/website-data
+[remote "backup"]
+    url = github.com:diegolavalledev/diegolavalle-website-data
     fetch = +refs/heads/*:refs/remotes/origin/*
