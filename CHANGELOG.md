@@ -15,6 +15,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Author margin on post page.
 - Taller image vertical margin in posts.
 
+## [1.0.3] - 2023-09-21
+### Changed
+- Upgraded to SwiftySites 2.0 and Swift 5.9.
+
 ## [1.0.2] - 2021-10-29
 ### Added
 - View port width and scale value now specified for all pages.

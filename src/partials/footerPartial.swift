@@ -1,6 +1,6 @@
 import SwiftySites
 
-let footerPartial = { (site: Site, page: Page?) -> String in """
+let footerPartial = { (page: Page?) -> String in """
 <footer>
     <details>
         <summary>Made with  and <a href="https://github.com/swiftysites/swiftysites">SwiftySites</a>.</summary>
@@ -20,7 +20,7 @@ let footerPartial = { (site: Site, page: Page?) -> String in """
                 })
             </ul>
         </nav>
-        <div>\(site.copyright)</div>
+        <div>\(config.copyright)</div>
     </details>
 </footer>
 """ }

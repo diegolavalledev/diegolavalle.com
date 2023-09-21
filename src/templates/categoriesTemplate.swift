@@ -1,4 +1,6 @@
-let categoriesTemplate = Site.templateA("/categories") { site, page in baseLayout(site: site, page: page, main: """
+import SwiftySites
+
+let categoriesTemplate = Template(#//categories/#) { (page: Page) in baseLayout(page: page, main: """
 <main>
     \(page.content)
     <hr />

@@ -1,3 +1,5 @@
-let pageTemplate = Site.templateA(exclude: #"^/categories/[\W\w]+$|/posts|/categories|/"#) { site, page in baseLayout(site: site, page: page, main: """
+import SwiftySites
+
+let pageTemplate = Template(exclude: #/^/categories/[\W\w]+$|/posts|/categories|//#) { (page: Page) in baseLayout(page: page, main: """
 <main class="page">\(page.content)</main>
 """ ) }

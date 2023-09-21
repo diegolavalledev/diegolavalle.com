@@ -1,6 +1,6 @@
 import SwiftySites
 
-func baseLayout (site: Site, page: Page? = nil, post: Post? = nil, main: String) -> String { """
+func baseLayout (page: Page? = nil, post: Post? = nil, main: String) -> String { """
 <!doctype html>
 <html lang="en">
     <head>
@@ -14,19 +14,19 @@ func baseLayout (site: Site, page: Page? = nil, post: Post? = nil, main: String)
         <script src="https://cdn.jsdelivr.net/gh/swiftysites/theme-switch@release/src/theme-switch.min.js"></script>
         <script src="/assets/highlight.js"></script>
         <script>hljs.highlightAll();</script>
-        <title>\(site.config.title) | \(page?.title ?? post!.title)</title>
+        <title>\(config.title) | \(page?.title ?? post!.title)</title>
     </head>
     <body>
         <header>
             <div>
                 <div class="site-title">
                     <span class="name">Diego Lavalle</span> – Swift and Apple Platforms Development</div>
-                \(navigationPartial(site, page))
+                \(navigationPartial(page))
             </div>
             <theme-switch stylesheet-id="themeCSSLink" color="#C41A16" color-dark="#FC6A5D"></theme-switch>
         </header>
         \(main)
-        \(footerPartial(site, page))
+        \(footerPartial(page))
         <script src="/assets/comments-app.js"></script>
     </body>
 </html>
